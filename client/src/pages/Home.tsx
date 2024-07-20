@@ -14,7 +14,7 @@ const CarouselContents: {
   description: string;
 }[] = [
   {
-    title: "MetaMask",
+    title: "MetaMask Wallet",
     image: metamask,
     description:
       "The platform integrates with MetaMask for secure heart-2-heart transactions.",
