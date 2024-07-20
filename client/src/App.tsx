@@ -22,7 +22,7 @@ export default function App() {
               backgroundSize: "cover",
             }
           : {
-              backgroundColor: "#141025",
+              backgroundColor: "#000000",
             }
       }
       className="relative p-4 min-h-screen flex flex-row w-full bg-center bg-cover"

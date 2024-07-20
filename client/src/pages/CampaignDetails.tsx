@@ -144,7 +144,7 @@ const CampaignDetails = () => {
             Fund
           </h4>
 
-          <div className="mt-[20px] flex flex-col p-4 bg-[#141025] border border-white/40  rounded-[10px]">
+          <div className="mt-[20px] flex flex-col p-4 bg-[#000000] border border-white/40  rounded-[10px]">
             <p className="font-epilogue fount-medium text-[20px] leading-[30px] text-center text-[#808191]">
               Fund the campaign
             </p>
