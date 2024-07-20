@@ -28,9 +28,9 @@ export default function Home() {
         BLK LUV.ORG
       </h1>
       <p className="text-lg text-center font-epilogue md-lg:text-left">
-        "Earn 💯% of your funds #blkluvorg" Wizard of Hahz<br>
-        <a href="https://T.me/blkluvorg">t.me/blkluvorg</a><br>
-        Made with LUV by <a href="https://tiktok.com/@hahzcandy">@HAHZCANDY</a>
+       &quot;Earn 💯% of your funds #blkluvorg&quot; Wizard of Hahz<br />
+       <a href="https://T.me/blkluvorg">t.me/blkluvorg</a><br />
+       Made with LUV by <a href="https://tiktok.com/@hahzcandy">@HAHZCANDY</a>
       </p>
       <Carousel
         plugins={[
