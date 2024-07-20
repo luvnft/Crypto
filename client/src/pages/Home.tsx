@@ -31,7 +31,7 @@ export default function Home() {
        &quot;Earn 💯% of your funds&quot; Wizard of Hahz<br />
        🪬 <a href="https://T.me/blkluvorg">t.me/blkluvorg</a><br />
        ✨ Manifested with LUV in 2020 by <a href="https://tiktok.com/@hahzcandy">@HAHZCANDY</a> 🤴🏽👸🏽<br />
-       #blkluvorg
+       #️⃣ #blkluvorg
       </p>
       <Carousel
         plugins={[
