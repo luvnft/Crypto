@@ -47,7 +47,7 @@ const CreateCampaign = () => {
   };
 
   return (
-    <div className="flex justify-center items-center flex-col sm:p-10 p-4">
+    <div className="flex flex-col items-center justify-center p-4 sm:p-10">
       {isLoading && <Loader />}
       <div className="flex justify-center items-center p-[16px] sm:min-w-[380px]">
         <h1 className="font-epilogue font-bold sm:text-[25px] text-[18px] leading-[38px] text-white">
@@ -62,7 +62,7 @@ const CreateCampaign = () => {
         <div className="flex flex-wrap gap-[40px]">
           <FormField
             labelName="Your Name *"
-            placeholder="John Doe"
+            placeholder="Hahz Terry"
             inputType="text"
             value={form.name}
             handleChange={(e) => handleFormFieldChange("name", e)}

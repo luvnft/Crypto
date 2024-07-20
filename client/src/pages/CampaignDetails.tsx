@@ -41,7 +41,7 @@ const CampaignDetails = () => {
       {isLoading && <Loader />}
 
       <div className="w-full flex md:flex-row flex-col mt-10 gap-[30px]">
-        <div className="flex-1 flex-col">
+        <div className="flex-col flex-1">
           <img
             src={state.image}
             alt="campaign"
@@ -119,7 +119,7 @@ const CampaignDetails = () => {
                 donators.map((item, index) => (
                   <div
                     key={`${item.donator}-${index}`}
-                    className="flex justify-between items-center gap-4"
+                    className="flex items-center justify-between gap-4"
                   >
                     {/* TODO: Add Donator Name */}
                     <p className="font-epilogue font-normal text-[16px] text-[#b2b3bd] leading-[26px] break-ll">
@@ -151,7 +151,7 @@ const CampaignDetails = () => {
             <div className="mt-[30px] flex flex-col gap-4">
               <input
                 type="text"
-                placeholder="John Doe"
+                placeholder="Hahz Terry"
                 className="w-full py-[10px] sm:px-[20px] px-[15px] outline-none border-[1px] border-[#3a3a43] bg-transparent font-epilogue text-white text-[18px] leading-[30px] placeholder:text-[#4b5264] rounded-[10px]"
                 value={name}
                 onChange={(e) => setName(e.target.value)}

@@ -16,8 +16,13 @@ const CarouselContents: {
   {
     title: "MetaMask Wallet",
     image: metamask,
-    description:
-      "The platform integrates with MetaMask for secure heart-2-heart transactions.",
+    description:  `
+    <ol class="list-style">
+      <li>1. Open MetaMask</li>
+      <li>2. Add BLKLUV.org to browser</li>
+      <li>3. Click Connect</li>
+    </ol>
+  `,
   },
 ];
 
