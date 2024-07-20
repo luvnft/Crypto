@@ -14,10 +14,10 @@ const CarouselContents: {
   description: string;
 }[] = [
   {
-    title: "MetaMask Integration",
+    title: "MetaMask",
     image: metamask,
     description:
-      "The platform integrates with MetaMask for secure transactions.",
+      "The platform integrates with MetaMask for secure heart-2-heart transactions.",
   },
 ];
 
@@ -27,8 +27,10 @@ export default function Home() {
       <h1 className="text-[#406be9] text-6xl font-major font-extrabold text-center text-wrap leading-tight">
         BLK LUV.ORG
       </h1>
-      <p className="text-lg text-center  font-epilogue md-lg:text-left">
-        "Earn 100% of your funds #blkluvorg"
+      <p className="text-lg text-center font-epilogue md-lg:text-left">
+        "Earn 💯% of your funds #blkluvorg" Wizard of Hahz
+        <a href="https://T.me/blkluvorg">t.me/blkluvorg</a>
+        Made with LUV by <a href="https://tiktok.com/@hahzcandy">@HAHZCANDY</a>
       </p>
       <Carousel
         plugins={[
@@ -46,7 +48,7 @@ export default function Home() {
           {CarouselContents.map((c, index) => (
             <CarouselItem key={index}>
               <div className="p-1">
-                <Card className="bg-transparent border  border-white/40">
+                <Card className="bg-transparent border border-white/40">
                   <CardContent className="flex flex-col items-center justify-center gap-3 p-6 aspect-square">
                     <h1 className="text-lg font-extrabold text-center font-major">
                       {c.title}
