@@ -29,8 +29,8 @@ export default function Home() {
       </h1>
       <p className="text-lg text-center font-epilogue md-lg:text-left">
        &quot;Earn 💯% of your funds #blkluvorg&quot; Wizard of Hahz<br />
-       <a href="https://T.me/blkluvorg">t.me/blkluvorg</a><br />
-       Made with LUV by <a href="https://tiktok.com/@hahzcandy">@HAHZCANDY</a>
+       🪬 <a href="https://T.me/blkluvorg">t.me/blkluvorg</a><br />
+       ✨ Manifested with LUV in 2020 by <a href="https://tiktok.com/@hahzcandy">@HAHZCANDY</a> 🤴🏽👸🏽
       </p>
       <Carousel
         plugins={[
